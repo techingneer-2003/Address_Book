@@ -1,0 +1,41 @@
+ADDRESS BOOK - C MINI PROJECT
+=============================
+
+Features
+--------
+* Add, list, search, update and delete contacts (CRUD).
+* Up to five phone numbers and five email addresses per contact.
+* Input validation for names, phone numbers and basic email syntax.
+* Case-insensitive name/email search and phone substring search.
+* Alphabetical sorting, database statistics and explicit save.
+* CSV persistence with quoted fields (commas and quotes are supported).
+* Automatic save after edits and append-only audit logging in ABK.LOG.
+* Dynamic contact storage; no fixed maximum contact count.
+* Optional data-file argument for working with a separate database.
+
+Build
+-----
+From this directory run:
+    make
+
+Run
+---
+    ./abk
+or:
+    ./abk my_contacts.csv
+
+The default data file is telephone.csv in the current working directory.
+A missing data file starts as an empty address book and is created when saved.
+The audit log is written to ABK.LOG in the current working directory.
+
+CSV format
+----------
+Each row has 11 fields: name, five phone-number fields, and five email fields.
+Fields are quoted and embedded quotes are doubled. Back up your CSV file before
+editing it manually. If an existing CSV file is malformed, the program stops
+rather than silently overwriting it.
+
+Notes
+-----
+This is a small local console application; it does not encrypt contact details.
+Keep the data file private and make backups of important contacts.
