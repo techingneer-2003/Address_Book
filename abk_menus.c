@@ -1,3 +1,9 @@
+/*
+ * Project     : Address Book
+ * Author      : Maria Antony Bescy B
+ * Date        : 17 November 2026
+ * Description : Address Book application developed in C.
+ */
 /* User interface, validation, CRUD, searching, and sorting. */
 #include <stdio.h>
 #include <stdlib.h>

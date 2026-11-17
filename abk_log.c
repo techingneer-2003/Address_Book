@@ -1,3 +1,9 @@
+/*
+ * Project     : Address Book
+ * Author      : Maria Antony Bescy B
+ * Date        : 17 November 2026
+ * Description : Address Book application developed in C.
+ */
 /* Append-only audit log. Logging must never block normal application use. */
 #include <stdio.h>
 #include <time.h>

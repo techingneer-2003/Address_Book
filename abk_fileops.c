@@ -1,3 +1,9 @@
+/*
+ * Project     : Address Book
+ * Author      : Maria Antony Bescy B
+ * Date        : 17 November 2026
+ * Description : Address Book application developed in C.
+ */
 /* Dynamic storage and CSV persistence for the Address Book. */
 #include <stdio.h>
 #include <stdlib.h>
