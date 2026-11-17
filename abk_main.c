@@ -1,3 +1,9 @@
+/*
+ * Project     : Address Book
+ * Author      : Maria Antony Bescy B
+ * Date        : 17 November 2026
+ * Description : Address Book application developed in C.
+ */
 /* Entry point for the Address Book application. */
 #include <stdio.h>
 #include <string.h>

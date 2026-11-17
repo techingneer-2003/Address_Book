@@ -1,3 +1,10 @@
+/*
+ * Project     : Address Book
+ * Author      : Maria Antony Bescy B
+ * Date        : 17 November 2026
+ * Description : Address Book application developed in C.
+ */
+
 #ifndef ADDRESS_BOOK_H
 #define ADDRESS_BOOK_H
 
